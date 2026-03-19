@@ -1,2 +1,2 @@
 # CadQuery-Project
-LEGO compatible plastic blocks created with CadQuery
+A collection of CaDA\LEGO compatible part designs created using CadQuery.

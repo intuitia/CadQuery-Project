@@ -8,12 +8,9 @@ Between CaDA, LEGO and Mattel, among others, there are a number of different bas
 In part, that is what this project is about.
 
 Here I explain why I think CadQuery is a 'game changer':
-https://youtu.be/mcuU1GFBvME?si=dmU6Vpc_1n-UvCci
-
-[Introduction to CadQuery](https://youtu.be/mcuU1GFBvME?si=dmU6Vpc_1n-UvCci)
 
 [![Introduction to CadQuery](https://img.youtube.com/vi/mcuU1GFBvME/0.jpg)](https://youtu.be/mcuU1GFBvME)
 
 Here is my first tutorial on how to create basic solids using CadQuery:
 
-[Introduction to Solids in CadQuery](https://youtu.be/s7sbAiB46BE?si=troGXyCG6QMZz-m_)
+[![Introduction to Solids in CadQuery](https://img.youtube.com/vi/s7sbAiB46BE/0.jpg)](https://youtu.be/s7sbAiB46BE)

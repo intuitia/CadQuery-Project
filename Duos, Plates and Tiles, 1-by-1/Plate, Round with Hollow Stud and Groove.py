@@ -27,6 +27,3 @@ my_part = (cq.Workplane("XY")
         )
 
 show_object(my_part)
-
-from cadquery import exporters
-exporters.export(my_part, 'Round Plate with Hollow Stud and Groove.stl')

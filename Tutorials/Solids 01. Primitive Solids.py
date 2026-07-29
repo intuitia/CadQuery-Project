@@ -13,6 +13,7 @@ my_part = (cq.Workplane("XY").box(16.0, 16.0, 3.2)
 # run through "front", "XY", and "YZ" for box and cylinder
 
 # cylinder method used with radius measure
+
 # sphere method used with radius measure
 
 show_object(my_part)

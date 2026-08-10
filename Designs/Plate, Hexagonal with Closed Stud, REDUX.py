@@ -1,0 +1,23 @@
+import cadquery as cq
+
+hexagonal_plate = (cq.Workplane("XY").sketch()
+    .rect(7.8, 12.0)
+    .rect(7.8, 12.0, angle = 1 * 60, mode = "i")
+    .rect(7.8, 12.0, angle = 2 * 60, mode = "i")
+    .finalize()
+        .extrude(3.2)
+    .faces("<Z").sketch()
+    .rect(4.9, 12.0)
+    .rect(4.8, 12.0, angle = 1 * 60, mode = "i")
+    .rect(4.8, 12.0, angle = 2 * 60, mode = "i")
+    .finalize()
+        .cutBlind(2.0)
+    .faces(">Z").workplane()
+        .circle(2.45).extrude(1.8)
+    .faces(">Z")
+        .fillet(0.15)
+    .faces(">Z[1]").workplane()
+        .circle(1.65).cutBlind(-1.2 - 0.6)
+        )
+
+show_object(hexagonal_plate)
